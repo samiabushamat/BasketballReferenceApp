@@ -24,7 +24,7 @@ public func getTeamData() -> [Team] {
         Team(id: 10, name: "Warriors", city: "Golden State", division: .pacific, conference: .western, fullName: "Golden State Warriors", primaryColor: "Yellow"),
         Team(id: 11, name: "Rockets", city: "Houston", division: .southwest, conference: .western, fullName: "Houston Rockets", primaryColor: "Red"),
         Team(id: 12, name: "Pacers", city: "Indiana", division: .central, conference: .eastern, fullName: "Indiana Pacers", primaryColor: "Navy"),
-        Team(id: 13, name: "Clippers", city: "Los Angeles", division: .pacific, conference: .western, fullName: "LA Clippers", primaryColor: "Red"),
+        Team(id: 13, name: "Clippers", city: "Los Angeles", division: .pacific, conference: .western, fullName: "Los Angeles Clippers", primaryColor: "Red"),
         Team(id: 14, name: "Lakers", city: "Los Angeles", division: .pacific, conference: .western, fullName: "Los Angeles Lakers", primaryColor: "Purple"),
         Team(id: 15, name: "Grizzlies", city: "Memphis", division: .southwest, conference: .western, fullName: "Memphis Grizzlies", primaryColor: "Blue"),
         Team(id: 16, name: "Heat", city: "Miami", division: .southeast, conference: .eastern, fullName: "Miami Heat", primaryColor: "Red"),
