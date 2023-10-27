@@ -23,8 +23,7 @@ struct ContentView: View {
                 List(teamArray) { team in
                     NavigationLink(destination: detailView(team: team)){
                         HStack{
-                            
-                            Text("\(team.city) \(team.name), \(team.division.rawValue)")
+                            Text("\(team.fullName)")
                         }
                     }
                 }
