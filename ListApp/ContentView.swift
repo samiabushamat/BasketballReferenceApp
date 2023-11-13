@@ -16,23 +16,15 @@ struct ContentView: View {
     }
     var body: some View {
         NavigationView {
-            VStack {
-                Text("NBA Team Reference")
-                
-                Text("Number of Teams #'s: \(counter)")
-                List(teamArray) { team in
-                    NavigationLink(destination: detailView(team: team)){
-                        HStack{
-                            Text("\(team.fullName)")
-                        }
+            List(teamArray) { team in
+                NavigationLink(destination: TeamDetailView(team: team)){
+                    HStack{
+                        Text("\(team.fullName)")
                     }
                 }
             }
-        }
-    }
-    @ViewBuilder func detailView(team: Team) -> some View {
-        VStack {
-            Text("Detail View for \(team.name)")
+            .navigationTitle("NBA Team Reference")
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }

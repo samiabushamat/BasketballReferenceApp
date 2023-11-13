@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3799F2B72B02C3C200FEA71F /* TeamDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3799F2B62B02C3C200FEA71F /* TeamDetailView.swift */; };
 		B7852ED02A76C23300E2995E /* ListAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7852ECF2A76C23300E2995E /* ListAppApp.swift */; };
 		B7852ED22A76C23300E2995E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7852ED12A76C23300E2995E /* ContentView.swift */; };
 		B7852ED42A76C23400E2995E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7852ED32A76C23400E2995E /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3799F2B62B02C3C200FEA71F /* TeamDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailView.swift; sourceTree = "<group>"; };
 		B7852ECC2A76C23300E2995E /* ListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7852ECF2A76C23300E2995E /* ListAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAppApp.swift; sourceTree = "<group>"; };
 		B7852ED12A76C23300E2995E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				B7852EFF2A76C82900E2995E /* Models */,
 				B7852ECF2A76C23300E2995E /* ListAppApp.swift */,
 				B7852ED12A76C23300E2995E /* ContentView.swift */,
+				3799F2B62B02C3C200FEA71F /* TeamDetailView.swift */,
 				B7852ED32A76C23400E2995E /* Assets.xcassets */,
 				B7852ED82A76C23400E2995E /* Persistence.swift */,
 				B7852EDD2A76C23400E2995E /* Info.plist */,
@@ -293,6 +296,7 @@
 				B7852ED22A76C23300E2995E /* ContentView.swift in Sources */,
 				B7852F032A76C84E00E2995E /* Team.swift in Sources */,
 				B7852ED02A76C23300E2995E /* ListAppApp.swift in Sources */,
+				3799F2B72B02C3C200FEA71F /* TeamDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
